@@ -1,0 +1,6 @@
+{
+  "xgb_weight": 0.43,
+  "lgb_weight": 0.57,
+  "threshold": 0.4,
+  "best_f1": 0.7826
+}

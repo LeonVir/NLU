@@ -1,0 +1,31 @@
+# Model A - Authorship Verification
+# Ensemble: XGBoost + LightGBM
+
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+joblib
+nltk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
