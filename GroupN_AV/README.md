@@ -40,12 +40,12 @@ Due to the Canvas submission file size limit (10MB), our pre-trained model weigh
 **IMPORTANT:** To ensure the notebooks run correctly without path errors, please download the files from the links below and place them exactly in their respective sub-directories as specified.
 
 * **Category A Model (XGBoost/LightGBM)**
-    * **Download:** [https://drive.google.com/drive/folders/1mF0bMpzfs3XODpQA2Hd7H_JvXLk5AGgp?usp=sharing](#)
+    * **Download:** [Category A Google Drive Link](https://drive.google.com/drive/folders/1mF0bMpzfs3XODpQA2Hd7H_JvXLk5AGgp?usp=sharing)
     * **Target Path:** 📁 Category_A
     * **✅️ Action: Download the folder and place it directly inside the 'Category_A' directory.**
 
 * **Category C Model (RoBERTa)**
-    * **Download:** [https://drive.google.com/drive/folders/1Ty9-EpOLAgzvTWPuqrHBTbehmZZuDs3V?usp=sharing](#)
+    * **Download:** [Category C Google Drive Link](https://drive.google.com/drive/folders/1Ty9-EpOLAgzvTWPuqrHBTbehmZZuDs3V?usp=sharing)
     * **Target Path:** 📁 Category_C
     * **✅️ Action: Download the folder and place it directly inside the 'Category_C' directory.**
 
