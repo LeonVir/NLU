@@ -10,7 +10,7 @@
 ---
 
 ## 2. Directory Structure & Inventory
-To ensure a seamless grading process, we have structured our submission as follows. Please unzip the **Group33_AV.zip** and maintain the internal hierarchy to prevent file path exceptions.
+To ensure a seamless grading process, we have structured our submission as follows. Please unzip the **Group_33_AV.zip** and maintain the internal hierarchy to prevent file path exceptions.
 
 ```text
 📁 Group_33_AV.zip
