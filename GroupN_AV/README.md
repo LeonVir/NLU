@@ -13,23 +13,23 @@
 To ensure a seamless grading process, we have structured our submission as follows. Please unzip the **Group33_AV.zip** and maintain the internal hierarchy to prevent file path exceptions.
 
 ```text
-📁 Group33_AV.zip
+📁 Group_33_AV.zip
 │
 ├── 📄 README.md                           # Execution guide & Critical external links (OneDrive/G-Drive)
 ├── 📄 requirements.txt                    # Environment dependencies
 │
 ├── 📁 Category_A/                         # Machine Learning Task (XGBoost/LightGBM)
-│   ├── 💻 Group33_AV_A_Training.ipynb      # Full model training & Hyperparameter tuning
-│   ├── 💻 Group33_AV_A_Demo.ipynb          # Model loading & Final inference pipeline
-│   ├── 📊 Group33_AV_A_ModelCard.md
-│   └── 📝 Group33_AV_A_Prediction.csv
+│   ├── 💻 Group_33_Training_A.ipynb       # Full model training & Hyperparameter tuning
+│   ├── 💻 Group_33_Demo_A.ipynb           # Model loading & Final inference pipeline
+│   ├── 📊 Group_33_ModelCard_A.md
+│   └── 📝 Group_33_A.csv
 │
 └── 📁 Category_C/                         # Deep Learning Task (Transformers/RoBERTa)
-    ├── 💻 Group33_AV_C_ASL_Training.ipynb  # Training with ASL (Asymmetric Loss)
-    ├── 💻 Group33_AV_C_CE_Training.ipynb   # Training with Cross-Entropy Loss
-    ├── 💻 Group33_AV_C_Demo.ipynb          # Model loading & GPU-accelerated inference
-    ├── 📊 Group33_AV_C_ModelCard.md
-    └── 📝 Group33_AV_C_Prediction.csv
+    ├── 💻 Group_33_Training_C_ASL.ipynb   # Training with ASL (Asymmetric Loss)
+    ├── 💻 Group_33_Training_C_CE.ipynb    # Training with Cross-Entropy Loss
+    ├── 💻 Group_33_Demo_C.ipynb           # Model loading & GPU-accelerated inference
+    ├── 📊 Group_33_ModelCard_C.md
+    └── 📝 Group_33_C.csv
 ```
 
 ---
@@ -40,12 +40,12 @@ Due to the Canvas submission file size limit (10MB), our pre-trained model weigh
 **IMPORTANT:** To ensure the notebooks run correctly without path errors, please download the files from the links below and place them exactly in their respective sub-directories as specified.
 
 * **Category A Model (XGBoost/LightGBM)**
-    * **Download:** [Google Drive Link](#)
+    * **Download:** [https://drive.google.com/drive/folders/1mF0bMpzfs3XODpQA2Hd7H_JvXLk5AGgp?usp=sharing](#)
     * **Target Path:** 📁 Category_A
     * **✅️ Action: Download the folder and place it directly inside the 'Category_A' directory.**
 
 * **Category C Model (RoBERTa)**
-    * **Download:** [Google Drive Link](#)
+    * **Download:** [https://drive.google.com/drive/folders/1Ty9-EpOLAgzvTWPuqrHBTbehmZZuDs3V?usp=sharing](#)
     * **Target Path:** 📁 Category_C
     * **✅️ Action: Download the folder and place it directly inside the 'Category_C' directory.**
 
@@ -85,17 +85,17 @@ pip install torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.p
 ### Step 4: Pre-Run Checklist (Model Weights)
 Before running the inference cells, please verify that the downloaded model folders are placed in the exact locations as instructed in Section 3:
 
-* **Category A Path:** Group33_AV/Category_A/Models_ML/
-* **Category C Path:** Group33_AV/Category_C/Models_ASL/
+* **Category A Path:** Group_33_AV/Category_A/Models_ML/
+* **Category C Path:** Group_33_AV/Category_C/Models_ASL/
 * **Verification:** Ensure the folder names match exactly and are **not nested** inside another redundant folder.
 
 ---
 
 ### Step 5: Execution
 Once the environment is ready and the weights are in place, follow these steps:
-1. Open **Category_A/Group33_AV_A_Demo.ipynb** and run the cells sequentially. 
+1. Open **Category_A/Group_33_Demo_A.ipynb** and run the cells sequentially. 
    * *Note: Start from Cell #2 if you have already performed a kernel restart.*
-2. Open **Category_C/Group33_AV_C_Demo.ipynb** and run the cells sequentially. 
+2. Open **Category_C/Group_33_Demo_C.ipynb** and run the cells sequentially. 
    * *Note: Start from Cell #2 if you have already performed a kernel restart.*
 3. The final prediction CSV files will be automatically generated in their respective category folders.
 

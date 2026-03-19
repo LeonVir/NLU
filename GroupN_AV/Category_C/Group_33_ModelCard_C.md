@@ -1,15 +1,16 @@
 ---
 {}
 ---
-language: en
-license: cc-by-4.0
+language: en  
+license: cc-by-4.0  
 tags:
 - text-classification
 - authorship-verification
 - roberta-large
 - asymmetric-loss
 - pytorch
-- repo: https://github.com/LeonVir/NLU
+
+repo: https://github.com/LeonVir/NLU
 
 ---
 
@@ -168,4 +169,4 @@ Inference:
 - Threshold Optimization: After training, the decision threshold was empirically optimized. Scanning probability thresholds between 0.2 and 0.8 revealed that 0.51 maximized the Macro F1-score on the dev set.
 - Loss Function Dynamics: The ASL hyperparameters (gamma_neg=2, gamma_pos=1) were specifically targeted to heavily penalize hard-to-classify 'different-author' pairs without destabilizing the learning of 'same-author' pairs.
 - Task Category: This model is submitted under Category C (Deep Learning & Transformers) for the COMP34812 Authorship Verification task.
-- Model Storage: The .safetensors model weights and tokenization artifacts are securely stored on [Google Drive](Link).
+- Model Storage: The .safetensors model weights and tokenization artifacts are securely stored on [Google Drive](https://drive.google.com/drive/folders/1Ty9-EpOLAgzvTWPuqrHBTbehmZZuDs3V?usp=sharing).

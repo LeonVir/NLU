@@ -1,15 +1,16 @@
 ---
 {}
 ---
-language: en
-license: cc-by-4.0
+language: en  
+license: cc-by-4.0  
 tags:
 - text-classification
 - authorship-verification
 - xgboost
 - lightgbm
 - stylometry
-- repo: https://github.com/LeonVir/NLU
+
+repo: https://github.com/LeonVir/NLU
 
 ---
 
@@ -196,4 +197,4 @@ Inference:
 - Efficiency: XGBoost and LightGBM were trained in parallel using Python's threading module to maximize GPU (2x NVIDIA T4) utilization.
 - Optimization: Final ensemble weights (0.26 for XGB, 0.74 for LGBM) and the decision threshold (0.43) were determined via extensive grid search on the development set to maximize the Macro F1-score.
 - Task Category: This model belongs to Category A (Traditional ML & Stylometry) of the COMP34812 Authorship Verification task.
-- Model Storage: Trained artifacts (serialized .json and .pkl files) and vectorizers are stored on [Google Drive](Link).
+- Model Storage: Trained artifacts (serialized .json and .pkl files) and vectorizers are stored on [Google Drive](https://drive.google.com/drive/folders/1mF0bMpzfs3XODpQA2Hd7H_JvXLk5AGgp?usp=sharing).
