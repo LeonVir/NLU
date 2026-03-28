@@ -57,7 +57,9 @@ Due to the Canvas submission file size limit (10MB), our pre-trained model weigh
 This project was developed and validated on **Python 3.12.7** (Windows/Anaconda). To ensure full reproducibility and GPU acceleration, please follow this execution flow carefully.
 
 ### Step 1: Environment Check
-Please review our **requirements.txt**. The most critical requirement for this project is **PyTorch with CUDA 12.1 support** (torch==2.5.1+cu121). 
+Please review our **requirements.txt**. This file specifies the environment for running the **demo (inference) notebooks**. Note that 
+the training environments differ per solution — exact versions used during training are documented in each model card. 
+The most critical requirement for this project is **PyTorch with CUDA 12.1 support** (torch==2.5.1+cu121). 
 * If your current environment already has the required libraries installed, you may **skip the installation** and proceed to Step 3.
 
 **⚠️ Disclaimer:** If you choose to run the notebooks without installing our requirements and encounter any runtime errors, we strongly request that you configure your environment to match our exact setup (Python 3.12.7 + CUDA 12.1 PyTorch) and try again.
