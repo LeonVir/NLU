@@ -21,15 +21,15 @@ To ensure a seamless grading process, we have structured our submission as follo
 ├── 📁 Category_A/                         # Machine Learning Task (XGBoost/LightGBM)
 │   ├── 💻 Group_33_Training_A.ipynb       # Full model training & Hyperparameter tuning
 │   ├── 💻 Group_33_Demo_A.ipynb           # Model loading & Final inference pipeline
-│   ├── 📊 Group_33_ModelCard_A.md
-│   └── 📝 Group_33_A.csv
+│   ├── 📊 Group_33_ModelCard_A.md         # Modelcard for model A
+│   └── 📝 Group_33_A.csv                  # Prediction csv for model A
 │
 └── 📁 Category_C/                         # Deep Learning Task (Transformers/RoBERTa)
     ├── 💻 Group_33_Training_C_ASL.ipynb   # Training with ASL (Asymmetric Loss)
     ├── 💻 Group_33_Training_C_CE.ipynb    # Training with Cross-Entropy Loss
     ├── 💻 Group_33_Demo_C.ipynb           # Model loading & GPU-accelerated inference
-    ├── 📊 Group_33_ModelCard_C.md
-    └── 📝 Group_33_C.csv
+    ├── 📊 Group_33_ModelCard_C.md         # Modelcard for model C
+    └── 📝 Group_33_C.csv                  # Prediction csv for model C
 ```
 
 ---
