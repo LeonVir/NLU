@@ -65,9 +65,21 @@ The most critical requirement for this project is **PyTorch with CUDA 12.1 suppo
 
 ---
 
+## 4. Environment Setup & Execution Guide
+This project was developed and validated on **Python 3.12.7** (Windows/Anaconda). To ensure full reproducibility and GPU acceleration, please follow this execution flow carefully.
+
+### Step 1: Environment Check
+Please review our **requirements.txt**. This file specifies the environment for running the **demo (inference) notebooks**. Note that 
+the training environments differ per solution — exact versions used during training are documented in each model card. 
+The most critical requirement for this project is **PyTorch with CUDA 12.1 support** (torch==2.5.1+cu121). 
+* If your current environment already has the required libraries installed, you may **skip the installation** and proceed to Step 3.
+
+**⚠️ Disclaimer:** If you choose to run the notebooks without installing our requirements and encounter any runtime errors, we strongly request that you configure your environment to match our exact setup (Python 3.12.7 + CUDA 12.1 PyTorch) and try again.
+
+---
+
 ### Step 2: Installation (Only if required)
 If you need to set up the environment, please execute the following commands. It is crucial to install the CUDA 12.1 specific PyTorch wheel to prevent torchvision::nms binary mismatch errors.
-
 ```bash
 # 1. Install PyTorch configured for CUDA 12.1 (Crucial for Category C)
 pip install torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
@@ -83,12 +95,17 @@ pip install torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.p
 
 ---
 
-### Step 4: Pre-Run Checklist (Model Weights)
-Before running the inference cells, please verify that the downloaded model folders are placed in the exact locations as instructed in Section 3:
+### Step 4: Pre-Run Checklist (Data & Model Weights)
+Before running the inference cells, please verify the following:
 
-* **Category A Path:** Group_33_AV/Category_A/Models_ML/
-* **Category C Path:** Group_33_AV/Category_C/Models_ASL/
-* **Verification:** Ensure the folder names match exactly and are **not nested** inside another redundant folder.
+* **Data Files (Canvas):** The official `train.csv`, `dev.csv`, and `test.csv` provided via Canvas should be placed in the `Data/` folder inside each category directory:
+  * **Category A Path:** `Group_33_AV/Category_A/Data/`
+  * **Category C Path:** `Group_33_AV/Category_C/Data/`
+
+* **Model Weights (Google Drive):** Download the pre-trained model folders as instructed in Section 3 and place them in their respective locations:
+  * **Category A Path:** `Group_33_AV/Category_A/Models_ML/`
+  * **Category C Path:** `Group_33_AV/Category_C/Models_ASL/`
+  * **Verification:** Ensure the folder names match exactly and are **not nested** inside another redundant folder.
 
 ---
 
